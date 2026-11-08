@@ -1,0 +1,62 @@
+TYPE-EFFECTIVITEIT VOOR DE GAMES IN DEZE PROJECTDOCUMENTEN
+
+Deze tabel beschrijft de type-interacties van generatie II t/m V (Gold/Silver/Crystal, FireRed/LeafGreen, Ruby/Sapphire/Emerald, Diamond/Pearl/Platinum, HeartGold/SoulSilver en Black/White/Black 2/White 2).
+Fairy bestaat niet in deze generaties en komt daarom niet in deze tabel voor.
+Pokémon Red/Blue/Yellow gebruikt generatie-I-regels; zie de waarschuwing onderaan.
+
+AANVALLER -> VERDEDIGER: SUPER EFFECTIEF (2x)
+- Normal: geen.
+- Fire: Grass, Ice, Bug, Steel.
+- Water: Fire, Ground, Rock.
+- Electric: Water, Flying.
+- Grass: Water, Ground, Rock.
+- Ice: Grass, Ground, Flying, Dragon.
+- Fighting: Normal, Ice, Rock, Dark, Steel.
+- Poison: Grass.
+- Ground: Fire, Electric, Poison, Rock, Steel.
+- Flying: Grass, Fighting, Bug.
+- Psychic: Fighting, Poison.
+- Bug: Grass, Psychic, Dark.
+- Rock: Fire, Ice, Flying, Bug.
+- Ghost: Psychic, Ghost.
+- Dragon: Dragon.
+- Dark: Psychic, Ghost.
+- Steel: Ice, Rock.
+
+AANVALLER -> VERDEDIGER: NIET ERG EFFECTIEF (0,5x)
+- Normal: Rock, Steel.
+- Fire: Fire, Water, Rock, Dragon.
+- Water: Water, Grass, Dragon.
+- Electric: Electric, Grass, Dragon.
+- Grass: Fire, Grass, Poison, Flying, Bug, Dragon, Steel.
+- Ice: Water, Ice, Steel.
+- Fighting: Poison, Flying, Psychic, Bug.
+- Poison: Poison, Ground, Rock, Ghost.
+- Ground: Grass, Bug.
+- Flying: Electric, Rock, Steel.
+- Psychic: Psychic, Steel.
+- Bug: Fire, Fighting, Poison, Flying, Ghost, Steel.
+- Rock: Fighting, Ground, Steel.
+- Ghost: Dark, Steel.
+- Dragon: Steel.
+- Dark: Fighting, Dark, Steel.
+- Steel: Fire, Water, Electric, Steel.
+
+AANVALLER -> VERDEDIGER: GEEN EFFECT (0x)
+- Normal -> Ghost.
+- Electric -> Ground.
+- Fighting -> Ghost.
+- Ground -> Flying.
+- Poison -> Steel.
+- Ghost -> Normal.
+- Psychic -> Dark.
+
+COMBINATIES VAN TWEE VERDEDIGENDE TYPES
+- Pas de vermenigvuldigers van beide verdedigerstypes toe: 2x en 2x = 4x; 2x en 0,5x = 1x; 0,5x en 0,5x = 0,25x.
+- Een 0x-immuniteit blijft 0x, ook als het andere type normaal schade zou krijgen.
+
+GENERATIE-I-WAARSCHUWING
+- Red/Blue/Yellow heeft afwijkende regels, waaronder geen Dark- of Steel-type en afwijkend gedrag van Ghost-aanvallen tegen Psychic. Pas de Dark/Steel-matchups uit deze tabel niet toe op die spellen.
+- Als een generatie-I-matchup niet expliciet door de projectbestanden wordt beschreven, noem de precieze multiplier dan niet als bevestigd. Vraag zo nodig welke versie de gebruiker speelt of benoem de beperking.
+
+Gebruik deze tabel als bron voor type-multipliers. Verzin geen matchup die niet in deze tabel of de generatie-opmerking staat.

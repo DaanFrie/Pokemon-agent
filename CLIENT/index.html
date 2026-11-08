@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Coach Chatbot</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Pokémon Coach</h1>
+      <p>Vertel welke game je speelt en waar je bent. Dan denk ik met je mee.</p>
+    </header>
+
+    <section
+      class="chatbox"
+      id="chatbox"
+      aria-label="Chatgesprek"
+      aria-live="polite"
+    ></section>
+
+    <form class="input-row" id="chatForm">
+      <label class="visually-hidden" for="message">Je bericht</label>
+      <input
+        id="message"
+        name="message"
+        type="text"
+        maxlength="4000"
+        placeholder="Bijvoorbeeld: Ik speel FireRed en heb 3 badges..."
+        autocomplete="off"
+        required
+      >
+      <button id="sendBtn" type="submit">Verstuur</button>
+    </form>
+  </main>
+</body>
+</html>
